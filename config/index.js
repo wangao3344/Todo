@@ -4,7 +4,6 @@ let config = process.env.nodePath;
 if (config) {
     config = pro;
 } else {
-
     config = dev;
 }
 module.exports = config;
