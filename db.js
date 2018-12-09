@@ -1,4 +1,3 @@
-//let mongoose = require("mongoose");
 const mongoose = require('mongoose')
 const config = require("./config/index");
 //连接数据库
@@ -8,3 +7,6 @@ db.on('error', console.error.bind(console, 'connection error:'));
 db.once('open', function () {
     console.log('连接mongodb成功！');
 });
+const mongoose = require('mongoose')
+const config = require("./config/index");
+

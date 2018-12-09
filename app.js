@@ -6,7 +6,6 @@
  */
 //同步捕获异常
 require("express-async-errors");
-
 require("./db");
 let morgan = require("morgan");
 let express = require("express");
